@@ -32,6 +32,27 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="py_basic\PythonApplication1.py" />
+    <Compile Include="py_oop\main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_oop\myui\main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_oop\myui\Myui.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_oop\person\main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_oop\person\Person.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_oop\py_inher.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="py_oop\py_method.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="py_oop\py_static.py">
       <SubType>Code</SubType>
     </Compile>
@@ -48,6 +69,8 @@
   <ItemGroup>
     <Folder Include="py_oop\" />
     <Folder Include="py_basic\" />
+    <Folder Include="py_oop\myui\" />
+    <Folder Include="py_oop\person\" />
     <Folder Include="tf_basic\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
