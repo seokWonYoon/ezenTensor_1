@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0f47212e-311c-4757-ae60-728a13a305a8</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>py_basic\PythonApplication1.py</StartupFile>
+    <StartupFile>bugs\bugs.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,34 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="bugs\bs_syntax.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bugs\bs_text.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bugs\bugs.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="calc\main.py" />
+    <Compile Include="calc\calc.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="grade\student.py" />
+    <Compile Include="grade\main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="numpy\matplot3.py" />
+    <Compile Include="numpy\matplot2.py" />
+    <Compile Include="numpy\matplot.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="numpy\numpy1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pandas\pandas1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="py_basic\add.py">
       <SubType>Code</SubType>
     </Compile>
@@ -59,7 +87,34 @@
     <Compile Include="py_oop\py_class.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="selenium\auto_login.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="selenium\naver_movie.py" />
+    <Compile Include="selenium\google.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tboard\tboard1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_basic\constant.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="tf_basic\tf_multiply.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_basic\tf_op2.py" />
+    <Compile Include="tf_basic\tf_op.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tf_basic\tf_Placeholder.py" />
+    <Compile Include="tf_basic\tf_Variable.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tkInter\main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tkInter\label.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -67,11 +122,22 @@
     <InterpreterReference Include="Global|ContinuumAnalytics|Anaconda37-64" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="calc\" />
+    <Folder Include="grade\" />
+    <Folder Include="bugs\" />
+    <Folder Include="pandas\" />
+    <Folder Include="tboard\" />
+    <Folder Include="selenium\" />
+    <Folder Include="numpy\" />
+    <Folder Include="tkInter\" />
     <Folder Include="py_oop\" />
     <Folder Include="py_basic\" />
     <Folder Include="py_oop\myui\" />
     <Folder Include="py_oop\person\" />
     <Folder Include="tf_basic\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="consumer_reports.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
