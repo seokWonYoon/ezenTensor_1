@@ -39,6 +39,16 @@
     <Compile Include="grade\main.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="linear_regression\basic.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="linear_regression\linear03.py" />
+    <Compile Include="linear_regression\linear02.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="linear_regression\linear05 - Copy.py" />
+    <Compile Include="linear_regression\linear05.py" />
+    <Compile Include="linear_regression\linear04.py" />
     <Compile Include="numpy\matplot3.py" />
     <Compile Include="numpy\matplot2.py" />
     <Compile Include="numpy\matplot.py">
@@ -94,6 +104,11 @@
     <Compile Include="selenium\google.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="sqlite\sqlite01.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tboard\tboard3.py" />
+    <Compile Include="tboard\tboard2.py" />
     <Compile Include="tboard\tboard1.py">
       <SubType>Code</SubType>
     </Compile>
@@ -125,6 +140,8 @@
     <Folder Include="calc\" />
     <Folder Include="grade\" />
     <Folder Include="bugs\" />
+    <Folder Include="linear_regression\" />
+    <Folder Include="sqlite\" />
     <Folder Include="pandas\" />
     <Folder Include="tboard\" />
     <Folder Include="selenium\" />
